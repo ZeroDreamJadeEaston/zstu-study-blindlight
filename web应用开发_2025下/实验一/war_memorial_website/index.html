@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>铭记历史 - 抗日战争胜利80周年纪念</title>
+
+<style>
+body {
+  font-family: "Microsoft YaHei", Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+/* ===== 导航 ===== */
+.main-nav {
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.main-nav li { margin: 0 25px; }
+.main-nav a {
+  display: block;
+  padding: 15px 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+.main-nav a:hover {
+  color: #B40000;
+}
+.main-nav a.active {
+  color: #B40000;
+  border-bottom: 3px solid #B40000;
+}
+
+/* ===== 页眉 ===== */
+.website-header {
+  text-align: center;
+  background-color: #fff;
+  padding: 10px 0;
+}
+.website-header img {
+  width: 100%;
+  max-height: 120px;
+  object-fit: cover;
+}
+
+/* ===== 主体内容 ===== */
+.main-content {
+  width: 90%;
+  max-width: 1100px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card {
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 30px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.card h2 {
+  color: #B40000;
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* ===== 图文排列 ===== */
+.event-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.event-text {
+  flex: 1 1 50%;
+  min-width: 320px;
+  line-height: 1.8;
+  font-size: 16px;
+  color: #222;
+}
+.event-media {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.event-media img,
+.event-media iframe {
+  width: 100%;
+  max-width: 380px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+/* ===== 页脚 ===== */
+.website-footer {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 20px;
+  color: #555;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+}
+.website-footer p { margin: 5px 0; }
+
+a {
+  color: #B40000;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+@media (max-width: 900px){
+  .event-row { flex-direction: column; }
+  .event-media img, .event-media iframe { max-width: 100%; }
+}
+</style>
+</head>
+
+<body>
+
+<header class="website-header">
+  <img src="images/header_banner.jpg" alt="抗日战争胜利80周年纪念">
+</header>
+
+<nav class="main-nav">
+  <ul>
+    <li><a href="index.html" class="active">首页</a></li>
+    <li><a href="history_events.html">历史事件</a></li>
+    <li><a href="#">人物事迹</a></li>
+    <li><a href="#">罪行铁证</a></li>
+  </ul>
+</nav>
+
+<main class="main-content">
+  <h1 style="text-align:center; font-size:24px; color:#B40000;">铭记历史 · 珍爱和平</h1>
+  <p style="font-size:17px; text-align:center; color:#555; margin-bottom:30px;">
+    2025年，我们迎来中国人民抗日战争暨世界反法西斯战争胜利八十周年。  
+    铭记历史、缅怀英烈、珍视和平、开创未来，让信仰与精神在新时代薪火相传。
+  </p>
+
+  <!-- 国家层面 -->
+  <section class="card">
+    <h2>国家层面：国家记忆，永续传承</h2>
+    <div class="event-row">
+      <div class="event-text">
+        <p>
+          国家将在北京天安门广场隆重举行纪念大会，并举行庄严的阅兵式，展现新时代强国强军的磅礴气象。
+          国家领导人将向人民英雄纪念碑敬献花篮，表达对抗战先烈的深切缅怀与崇高敬意。
+          同时，中国人民抗日战争纪念馆将举行高规格座谈会，邀请抗战老兵、国际友人及社会各界代表参加，共同回顾民族抗战的壮阔历程。
+        </p>
+        <p>
+          国家博物馆、军事博物馆也将推出“铭记历史，缅怀英烈”主题展览，以翔实史料和珍贵影像再现那段艰苦卓绝的岁月。
+          从抗战胜利的庄严宣告到今日和平的岁月，中国人民以血与火铸就了民族独立的基石。
+        </p>
+        <p><a href="https://www.gov.cn/yaowen/liebiao/202509/content_7039212.htm" target="_blank">查看国务院报道 ></a></p>
+      </div>
+      <div class="event-media">
+        <iframe src="https://www.youtube.com/embed/50aAch4xWoE" title="阅兵仪式" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- 浙江省级层面 -->
+  <section class="card">
+    <h2>浙江省级层面：红色根脉，钱江回响</h2>
+    <div class="event-row">
+      <div class="event-text">
+        <p>
+          浙江省将在云居山的浙江革命烈士纪念馆举行公祭仪式，全省同步开展“致敬英烈，赓续红色血脉”系列活动。
+          各级机关干部、青年团员和市民代表将集体鞠躬默哀、敬献花篮，向为民族独立与人民解放献身的英烈致敬。
+        </p>
+        <p>
+          浙江卫视推出大型纪录片《浙江抗战实录》，再现浙东、浙西抗日根据地军民并肩作战的壮烈场景；
+          浙江图书馆也将举办“抗战文献与实物展”，展示珍贵文献、书信、报刊、军用物资等，让红色精神焕发新时代光彩。
+        </p>
+        <p><a href="https://news.hangzhou.com.cn/zjnews/content/2025-09/04/content_9075670_0.htm" target="_blank">查看浙江纪念报道 ></a></p>
+      </div>
+      <div class="event-media">
+        <img src="images/zhejiang_memorial.jpg" alt="浙江革命烈士纪念馆公祭现场">
+      </div>
+    </div>
+  </section>
+
+  <!-- 杭州市级层面 -->
+  <section class="card">
+    <h2>杭州市级层面：城市荣光，薪火相传</h2>
+    <div class="event-row">
+      <div class="event-text">
+        <p>
+          杭州市将以“重走抗战路”为主题，举办系列红色纪念活动，路线涵盖保俶塔、笕桥中央航校旧址及抗战纪念碑等地标性遗址，
+          以脚步丈量历史，以行动致敬英烈。活动期间，广大市民、党员干部及青年志愿者将共同参与红色徒步行、主题讲解及纪念仪式，
+          在回望历史的同时，深刻体悟中华民族不屈不挠、自强不息的伟大精神。
+        </p>
+        <p>
+          全市中小学及高校将陆续开展“铭记历史、传承精神”主题教育活动，
+          组织师生集体观看爱国题材影片《八佰》《血战湘江》，撰写心得体会，通过朗诵、绘画、短剧等多样形式表达对先烈的崇敬与追思。
+          同时，杭州市教育局将联合退役军人事务部门推出“抗战精神进校园”活动，
+          邀请抗战老兵及史学专家走进课堂，讲述那段铁血抗争的峥嵘岁月。
+        </p>
+        <p>
+          此外，杭州市博物馆、图书馆与党史教育馆将共同推出“红色记忆展”，
+          展示珍贵史料、历史照片、抗战文物与互动体验空间，让参观者在沉浸式的感受中追忆抗战烽火，
+          感悟红色精神的时代价值。红色基因的传承，将在新时代青年群体中焕发新的光彩，激励他们不忘初心，砥砺前行。
+        </p>
+        <p><a href="https://www.52hrtt.com/mn/n/w/info/G1756374908650" target="_blank">查看杭州市活动详情 ></a></p>
+      </div>
+      <div class="event-media">
+        <img src="images/hangzhou_heritage.jpg" alt="保俶塔抗战纪念路线">
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="website-footer">
+  <p>抗日战争胜利80周年纪念专题网站</p>
+  <p>制作人：黄红洲 | 学号：2023337621072</p>
+</footer>
+
+</body>
+</html>

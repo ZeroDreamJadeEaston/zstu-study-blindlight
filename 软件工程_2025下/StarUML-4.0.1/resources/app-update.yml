@@ -1,0 +1,6 @@
+provider: s3
+bucket: staruml-bucket
+path: releases-v4
+updaterCacheDirName: staruml-updater
+publisherName:
+  - 'MKLabs Co.,Ltd.'
